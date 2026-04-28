@@ -11,7 +11,7 @@ spec:
     path: cluster/bootstrap/garage
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: cnpg
+    namespace: garage
   syncPolicy:
     automated:
       prune: true
