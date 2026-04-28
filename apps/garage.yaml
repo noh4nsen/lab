@@ -8,7 +8,7 @@ spec:
   source: 
     repoURL: https://github.com/noh4nsen/kind-lab.git
     targetRevision: HEAD
-    path: garage
+    path: cluster/bootstrap/garage
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: cnpg
