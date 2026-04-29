@@ -433,7 +433,7 @@ clusterConfig:
 # Garage WebUI configuration
 webui:
   # -- Enable the garage-webui deployment
-  enabled: false
+  enabled: true
 
   # -- Base path or prefix for Web UI
   basePath: "/"
@@ -456,7 +456,7 @@ webui:
     existingSecret: ""
     # -- Pre-hashed password in bcrypt format (username:hash), REQUIRED when auth is enabled
     # -- When the chart manages the auth secret, provide this together with garage.secret.rpcSecret and garage.secret.adminToken.
-    # Generate with: htpasswd -nbBC 10 "username" "password"
+    # Generate with: htpasswd -nbBC 10 "username" F"password"
     # Example: "admin:$2y$10$DSTi9o..."
     userPassHash: ""
 
