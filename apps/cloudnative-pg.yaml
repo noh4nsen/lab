@@ -8,7 +8,7 @@ spec:
   source: 
     repoURL: https://github.com/noh4nsen/lab.git
     targetRevision: HEAD
-    path: cluster/bootstrap/cloudnative-pg
+    path: cluster/cloudnative-pg
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: cnpg

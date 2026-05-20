@@ -8,7 +8,7 @@ spec:
   source: 
     repoURL: https://github.com/noh4nsen/lab.git
     targetRevision: HEAD
-    path: cluster/bootstrap/arc/scale-set
+    path: cluster/arc/scale-set
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: arc-runners

@@ -8,7 +8,7 @@ spec:
   source: 
     repoURL: https://github.com/noh4nsen/lab.git
     targetRevision: HEAD
-    path: cluster/bootstrap/arc/controller
+    path: cluster/arc/controller
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: arc-systems

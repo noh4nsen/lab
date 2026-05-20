@@ -8,7 +8,7 @@ spec:
   source: 
     repoURL: https://github.com/noh4nsen/lab.git
     targetRevision: HEAD
-    path: cluster/bootstrap/headlamp
+    path: cluster/headlamp
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: headlamp
