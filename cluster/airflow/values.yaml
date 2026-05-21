@@ -73,10 +73,6 @@ airflow:
       repository: registry.k8s.io/git-sync/git-sync
       tag: v4.4.2
       pullPolicy: IfNotPresent
-    otelCollector:
-      repository: otel/opentelemetry-collector-contrib
-      tag: "0.70.0"
-      pullPolicy: IfNotPresent
 
   # Select certain nodes for Airflow pods.
   nodeSelector: {}
@@ -3637,8 +3633,6 @@ airflow:
     redisDB: 6379
     statsdIngest: 9125
     statsdScrape: 9102
-    otelCollectorOtlpHttp: 4318
-    otelCollectorOtlpGrpc: 4317
     pgbouncer: 6543
     pgbouncerScrape: 9127
     apiServer: 8080
