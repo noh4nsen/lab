@@ -12,7 +12,7 @@ spec:
   http:
   - route:
     - destination:
-        host: {{ include "argo-cd.name" . }}.{{ .Values.istio.namespace | default "argocd" }}.svc.cluster.local
+        host: {{ .Values.istio.service | default "argocd-server" }}.{{ .Values.istio.namespace | default "argocd" }}.svc.cluster.local
         port:
           number: 80
 {{- end -}}

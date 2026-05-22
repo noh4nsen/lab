@@ -20,5 +20,6 @@ argo-cd:
 istio:
   enabled: true
   gateway: istio-system/gateway
+  service: argocd-server
   host: argo.local
   namespace: argocd
