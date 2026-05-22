@@ -20,5 +20,5 @@ argo-cd:
 istio:
   enabled: true
   gateway: istio-system/gateway
-  host: headlamp.local
-  namespace: headlamp
+  host: argo.local
+  namespace: argocd
