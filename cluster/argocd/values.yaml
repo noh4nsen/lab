@@ -16,4 +16,9 @@ argo-cd:
     enabled: true
   dex:
     enabled: false
-    
+
+istio:
+  enabled: true
+  gateway: istio-system/gateway
+  host: headlamp.local
+  namespace: headlamp

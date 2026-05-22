@@ -1,13 +1,5 @@
-# Default values for headlamp wrapper chart.
-# This is a wrapper for the official headlamp chart.
-
-# Values for the headlamp dependency
 headlamp: {}
-  # Add any official headlamp chart values here
-  # Example:
-  # replicaCount: 1
 
-# Istio VirtualService configuration
 istio:
   enabled: true
   gateway: istio-system/gateway
